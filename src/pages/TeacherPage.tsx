@@ -331,7 +331,7 @@ const TeacherPage: React.FC = () => {
           <div className="bg-white rounded-xl shadow-2xl max-w-md w-full mx-4">
             <div className="px-6 py-4 border-b border-gray-200 flex items-center justify-between">
               <h3 className="text-lg font-bold text-gray-900">
-                Create New Quiz
+                Create New Class
               </h3>
               <button
                 onClick={() => setShowCreateModal(false)}
@@ -355,7 +355,7 @@ const TeacherPage: React.FC = () => {
             <form onSubmit={handleCreateGroup} className="p-6 space-y-4">
               <div>
                 <label className="block text-sm font-medium text-gray-700 mb-2">
-                  Quiz Title
+                  Class Name
                 </label>
                 <input
                   type="text"
